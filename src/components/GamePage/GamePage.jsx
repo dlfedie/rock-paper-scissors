@@ -13,6 +13,14 @@ function GamePage() {
             <button onClick={() => setCount(count + 1)}>
                 Click me, Warrior!
             </button>
+            <br></br>
+            <button onClick={() => setCount(count - 1)}>
+                What will this button do??
+            </button>
+            <br></br>
+            <button onClick={() => setCount(0)}>
+                RESET THE WARRIOR
+            </button>
         </div>
     );
 }
