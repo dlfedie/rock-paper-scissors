@@ -6,10 +6,13 @@ import './Nav.css';
 
 const Nav = (props) => (
   <div className="nav">
-    <Link to="/home">
-      <h2 className="nav-title">Prime Solo Project</h2>
+    <Link to="/game">
+      <h2 className="nav-title">The Ultimate Warrior Game</h2>
     </Link>
     <div className="nav-right">
+      <Link className="nav-link" to="/game">
+        Game
+      </Link>
       <Link className="nav-link" to="/home">
         {/* Show this link if they are logged in or not,
         but call this link 'Home' if they are logged in,
