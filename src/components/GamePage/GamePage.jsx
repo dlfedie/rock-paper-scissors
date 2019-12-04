@@ -9,13 +9,20 @@ function GamePage() {
     return (
         <div>
             <h1>Game Page</h1>
-            <p>You clicked {count} times</p>
+            <p>You clicked on the Button of Counting {count} times</p>
             <button onClick={() => setCount(count + 1)}>
-                Click me
+                Click me, Warrior!
             </button>
         </div>
     );
 }
+
+// create a giant panda callback to playfair
+// goats and polybius shoutouts
+// learn animations! see if i can make them fall into place or animate in some way
+// base game will be rock paper scissors. no need to login/register, but if you do it'll track progress
+
+
 
 // class GamePage extends Component {
 //     render () {
