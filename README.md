@@ -1,4 +1,12 @@
-# Prime Project
+# Rock, Paper, Scissors: The art of a true warrior..
+I'll be making a game of rock, paper, scissors using the Prime starting repo. Going to experiment in React Hooks and see if we can get this deployed up to AWS.
+This is likely overkill for a page this simple, but I want to see what's possible. Who knows, maybe I'll add more games?
+
+
+
+
+
+## Prime Project
 This version uses React, Redux, Express, Passport, and PostgreSQL (a full list of dependencies can be found in `package.json`).
 
 We **STRONGLY** recommend following these instructions carefully. It's a lot, and will take some time to set up, but your life will be much easier this way in the long run.
